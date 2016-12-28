@@ -1,26 +1,24 @@
-#Ejercicio Parrot Trouble
+#Ejercicio HAZ  10
 
 *Inicio: Parrot Trouble*
 
 ## Ingreso datos
-- talking
-- hora
+- numero1
+- numero2
+- suma
 
 
 ## Proceso
 
-Obtener valor talking
-Obtener valor hora
+- Obtener valor numero1
+- Obtener valor numero2
 
-Si talking es verdadero
-	Si hora es menor a 7 ó mayor a 20
-		mostrar 1
-	si no
-		mostrar 0
-
-Si talking es falso
-	Si hora es menor ó igual a 23
-		mostrar 0
-Fin si
+- Si numero1 es igual a 10 ó numero2 es igual a 10
+	- mostar: escribiste un 10
+	
+- Si No y si suma es igual a 10
+	- mostar: suma es 10
+	
+- Fin si
 
 *Fin*
