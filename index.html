@@ -28,8 +28,8 @@
 			<div class="container-fluid ">
 				<div class="row">
      				<div class="frase option animated tada text-center"> 
-						<h2  ><strong>¿Cuanto le falta a un Numero para ser 10?</strong></h2>
-						<p style="font-size:20px;"><em>*Completa el siguiente formulario y lo averiguaras.</em></p>
+						<h2  ><strong>¿Quieres Jugar?,Haz 10 y ganaras</strong></h2>
+						<p style="font-size:20px;"><em>*Llena el siguiente formulario y lo averiguaras</em></p>
 					</div>
      			</div>
      			<div class="diff option animated slideInDown text-center ">
@@ -38,16 +38,17 @@
 							<div class="col-md-5 col-md-offset-2 form">
 								<div class="form-group">
 									<label for="exampleInputEmail1">Por favor Ingresa un Numero</label>
-									<input type="email" class="form-control" id="numero1" placeholder="0">
+									<input type="email" class="form-control" id="numero1" placeholder="0" onkeyDown="verifica(event)">
 								</div>
 								<div class="form-group">
 									<label for="exampleInputPassword1">Por favor Ingresa otro Numero</label>
-									<input class="form-control" id="numero2" placeholder="0">
+									<input class="form-control" id="numero2" placeholder="0" onkeyDown="verifica(event)">
 								</div>
 								<button onclick="calcular()" class="btn btn_menu">Calcular</button>
+
 							</div>
 							<div class="col-md-3 text-center">
-								<h4 >Mensaje</h4>
+								<h4 >¿Suma 10? ó ¿Es 10? , si sale "1" ganas, si sale "0" vuelve a intentar</h4>
 								<div id="salida" style="font-size:40px;" class="text-center">--</div>
 								<br>
 								<div id="mensajes" style="font-size:20px;" class="text-center"></div>
